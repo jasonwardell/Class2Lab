@@ -40,6 +40,7 @@ public class PageGenerator extends HttpServlet {
             out.println("<title>Servlet PageGenerator</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>" + "Employee Table" + "</h1>");
             out.println("<table border=\"1\">");
                 out.println("<tr>");
                 out.println("<td>First Name</td>");
@@ -62,7 +63,6 @@ public class PageGenerator extends HttpServlet {
                     out.println("<td>" +  "123" + "</td>");
                 out.println("</tr>");
             out.println("</table>");
-            out.println("<h1>Servlet PageGenerator at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
